@@ -1,0 +1,43 @@
+###>------------------------------------------------------------
+# Keeps local developer's changes from ending up in the repo.
+**/.gitignore
+
+###>------------------------------------------------------------
+# Keep from including these things commonly created during development process....
+**/*.iml
+**/*.log
+**/*.out
+**/*.rej
+**/*.tmp
+
+###>------------------------------------------------------------
+# Allow for developers to "indicate" something they want ignored.
+**/*.ignore
+**/*.orig
+**/*.test
+
+###>------------------------------------------------------------
+# OS Flotsam that are randomly left in the workspace.
+# Chaff from OSs
+**/.DS_Store
+**/._.*
+**/._*
+**/Thumbs.db
+
+###>------------------------------------------------------------
+# Other sawdust that some utilites and things may leave behind.
+**/*~
+
+###>------------------------------------------------------------
+# Project specific items.
+
+*.pyc
+*.swo
+*.swp
+
+/build
+/dist
+/csvkit.egg-info
+
+/docs/_build
+/man/.doctrees
